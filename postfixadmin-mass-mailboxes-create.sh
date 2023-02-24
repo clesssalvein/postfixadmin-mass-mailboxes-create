@@ -9,6 +9,7 @@
 
 # VARS
 
+mailboxesListFile="./mailboxes.txt"
 mailboxQuota="4096"
 pfCli="/usr/share/nginx/html/postfixadmin/scripts/postfixadmin-cli"
 
@@ -58,6 +59,7 @@ do
   echo "mailboxName: ${mailboxName}";
 
   # create each mailbox
-  #${pfCli} mailbox add ${mailboxUser} --password "${mailboxPass}" --password2 "${mailboxPass}" --name "${mailboxName}" --quota "${mailboxQuota}" --active --welcome-mail
+  ${pfCli} mailbox add ${mailboxUser} --password "${mailboxPass}" --password2 "${mailboxPass}" \
+    --name "${mailboxName}" --quota "${mailboxQuota}" --active --welcome-mail
 
-done < ./mailboxes.txt
+done < ${mailboxesListFile}
