@@ -1,0 +1,2 @@
+john;pass1;John Smith
+ann;pass2;Анна Паста Бродерик-Иванова
