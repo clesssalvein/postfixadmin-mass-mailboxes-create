@@ -1,2 +1,3 @@
-john;pass1;John Smith
-ann;pass2;Анна Паста Бродерик-Иванова
+john@domain.com;pass1;John Smith
+anna@domain.com;pass2;Анна Паста Бродерик-Иванова
+pete@domain.com;pass2;Nick Frederick Andros
