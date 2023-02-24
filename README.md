@@ -1,2 +1,2 @@
 # Description
-Shell script to mass mailboxes creation in Postfixadmin
+Shell script for mass mailboxes creation in Postfixadmin
