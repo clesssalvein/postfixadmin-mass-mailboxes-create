@@ -9,7 +9,7 @@
 
 # VARS
 
-mailboxesListFile="./USERS_lada-tambovavtocity.ru.txt"
+mailboxesListFile="./mailboxes.txt"
 mailboxQuota="2048"
 pfCli="/usr/share/nginx/html/postfixadmin/scripts/postfixadmin-cli"
 dateTimeCurrent=`date +%Y-%m-%d_%H-%M-%S`
